@@ -21,6 +21,26 @@
         <textarea v-model="form.description" rows="4" placeholder="Enter project description (optional)"></textarea>
       </div>
 
+      <div class="field">
+        <label>Prompt</label>
+        <textarea v-model="form.prompt" rows="3" placeholder="Describe your goal or what you want help with (optional)"></textarea>
+      </div>
+
+      <div class="row">
+        <div class="field" style="flex:1;">
+          <label>Deadline</label>
+          <input v-model="form.deadline" type="date" />
+        </div>
+        <div class="field" style="flex:1;">
+          <label>Priority</label>
+          <select v-model="form.priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+      </div>
+
       <div class="row">
         <label class="checkbox">
           <input v-model="form.submitted" type="checkbox" /> Submitted
@@ -54,6 +74,9 @@ const form = reactive({
   template: '',
   title: '',
   description: '',
+  prompt: '',
+  deadline: '',
+  priority: 'medium',
   submitted: false,
   published: false
 })

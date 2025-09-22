@@ -1,15 +1,18 @@
 {
-  "id": "d3be7cf1-c0ab-4a1b-9380-39b7658e4a5b",
+  "id": "6dff3aa2-7752-4c58-824b-90ff933ee82d",
   "template": {
     "slug": "thesis-or-research-project",
     "title": "Thesis or Research Project"
   },
-  "title": "How Cancer Works",
-  "description": "Hello some text",
+  "title": "These is about cancer",
+  "description": "something about cancer",
   "submitted": true,
   "published": false,
-  "createdAt": "2025-09-22T04:34:35.749Z",
-  "updatedAt": "2025-09-22T04:34:35.749Z",
+  "deadline": "2025-11-28T00:00:00.000Z",
+  "priority": "low",
+  "prompt": "",
+  "createdAt": "2025-09-22T14:14:38.752Z",
+  "updatedAt": "2025-09-22T14:14:38.752Z",
   "categories": {
     "hypotheses": {
       "description": "Clearly state the research hypothesis or guiding research question.",

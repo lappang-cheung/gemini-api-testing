@@ -18,7 +18,14 @@
       <div><strong>Template:</strong> {{ project.template?.title || project.template?.slug }}</div>
       <div v-if="project.createdAt"><strong>Created:</strong> {{ new Date(project.createdAt).toLocaleString() }}</div>
       <div v-if="project.updatedAt"><strong>Updated:</strong> {{ new Date(project.updatedAt).toLocaleString() }}</div>
+      <div v-if="project.deadline"><strong>Deadline:</strong> {{ new Date(project.deadline).toLocaleDateString() }}</div>
+      <div v-if="project.priority"><strong>Priority:</strong> {{ project.priority }}</div>
       <div><strong>ID:</strong> {{ project.id }}</div>
+    </section>
+
+    <section v-if="project.prompt" class="prompt">
+      <h2>Prompt</h2>
+      <pre class="value">{{ project.prompt }}</pre>
     </section>
 
     <section class="categories" v-if="categoryEntries.length">
@@ -51,6 +58,9 @@ interface Project {
   id: string
   title: string
   description?: string
+  prompt?: string
+  deadline?: string
+  priority?: 'low' | 'medium' | 'high'
   template?: { slug?: string; title?: string }
   submitted?: boolean
   published?: boolean

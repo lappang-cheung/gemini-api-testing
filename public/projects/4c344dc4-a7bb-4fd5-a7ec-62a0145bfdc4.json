@@ -1,0 +1,59 @@
+{
+  "id": "4c344dc4-a7bb-4fd5-a7ec-62a0145bfdc4",
+  "template": {
+    "slug": "engineering-design-process",
+    "title": "Engineering Design Process"
+  },
+  "title": "Aeroplanes",
+  "description": "Project about how aeroplanes are made.",
+  "submitted": false,
+  "published": false,
+  "priority": "medium",
+  "prompt": "can you help me start a fair project, I want the title be \"Aeroplanes\" and \"it should talked about how they are made\" as a description",
+  "createdAt": "2025-09-22T15:54:08.427Z",
+  "updatedAt": "2025-09-22T15:54:08.427Z",
+  "categories": {
+    "hypotheses": {
+      "description": "State an initial hypothesis or design assumption about how your solution will meet the requirements.",
+      "value": ""
+    },
+    "materials": {
+      "description": "Bill of materials (BOM): parts, components, tools, software, costs, and suppliers.",
+      "value": []
+    },
+    "experiment": {
+      "description": "Prototype plan and test procedures. Define metrics, constraints, and acceptance criteria.",
+      "value": []
+    },
+    "observation & data": {
+      "description": "Test logs, performance measurements, issues found, and iteration notes.",
+      "value": {
+        "notes": "",
+        "measurements": []
+      }
+    },
+    "results": {
+      "description": "Summarize test outcomes versus requirements (tables, charts, pass/fail).",
+      "value": ""
+    },
+    "conclusion": {
+      "description": "Assess whether the design meets requirements, trade-offs made, and next iteration plan.",
+      "value": ""
+    },
+    "questions & research": {
+      "description": "Prior art, standards, constraints, user research, and open questions.",
+      "value": {
+        "questions": [],
+        "references": []
+      }
+    },
+    "video": {
+      "description": "Demo or walkthrough video link (URL).",
+      "value": ""
+    },
+    "headshots": {
+      "description": "Team member headshot image URLs or file references.",
+      "value": []
+    }
+  }
+}

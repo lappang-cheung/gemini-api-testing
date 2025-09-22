@@ -16,6 +16,26 @@ function isBoolean(v: any): v is boolean {
   return typeof v === 'boolean'
 }
 
+function normalizePriority(p: any): 'low' | 'medium' | 'high' {
+  const v = String(p || '').toLowerCase().trim()
+  if (v === 'low' || v === 'high' || v === 'medium') return v as any
+  if (v === '1' || v === 'l') return 'low'
+  if (v === '3' || v === 'h') return 'high'
+  return 'medium'
+}
+
+function normalizeDeadline(d: any): string | undefined {
+  if (!d) return undefined
+  try {
+    // Accept YYYY-MM-DD or any Date-parsable string
+    const date = new Date(d)
+    if (isNaN(date.getTime())) return undefined
+    return date.toISOString()
+  } catch {
+    return undefined
+  }
+}
+
 export default defineEventHandler(async (event) => {
   const body = await readBody(event as any).catch(() => ({})) as any
   const {
@@ -23,7 +43,10 @@ export default defineEventHandler(async (event) => {
     title,
     description,
     submitted,
-    published
+    published,
+    deadline,
+    priority,
+    prompt,
   } = body || {}
 
   if (!template || typeof template !== 'string') {
@@ -61,6 +84,9 @@ export default defineEventHandler(async (event) => {
     description: typeof description === 'string' ? description : (templateJson.description || ''),
     submitted: isBoolean(submitted) ? submitted : false,
     published: isBoolean(published) ? published : false,
+    deadline: normalizeDeadline(deadline),
+    priority: normalizePriority(priority),
+    prompt: typeof prompt === 'string' ? prompt : '',
     createdAt: now,
     updatedAt: now,
     categories: templateJson.categories || {}
