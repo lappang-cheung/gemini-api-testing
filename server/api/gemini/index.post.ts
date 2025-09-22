@@ -1,4 +1,4 @@
-// server/api/gemini.post.ts
+// server/api/gemini/index.post.ts
 import { readBody } from 'h3';
 import { GoogleGenAI } from '@google/genai';
 

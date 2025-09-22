@@ -24,7 +24,7 @@ async function send() {
 
 onMounted(async() => {
   try {
-    const res = await $fetch('/api/gemini-status')
+    const res = await $fetch('/api/gemini/status')
     status.value = res.ok ? 'Online' : 'Offline'
   } catch {
     status.value = 'Offline'

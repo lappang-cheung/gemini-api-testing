@@ -1,4 +1,4 @@
-// server/api/gemini-status.ts
+// server/api/gemini/status.get.ts
 import { GoogleGenAI } from '@google/genai'
 
 export default defineEventHandler(async (event) => {
