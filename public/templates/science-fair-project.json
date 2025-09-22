@@ -1,0 +1,48 @@
+{
+  "title": "Science Fair Project",
+  "description": "A master template to guide students through a complete science fair project using the scientific method from hypothesis to conclusion and reflection.",
+  "categories": {
+    "hypotheses": {
+      "description": "State your testable prediction. Use an If... then... because... format.",
+      "value": ""
+    },
+    "materials": {
+      "description": "List every item, tool, and resource required, including quantities and safety equipment.",
+      "value": []
+    },
+    "experiment": {
+      "description": "Step-by-step procedure. Include variables (independent, dependent, controls) and number of trials.",
+      "value": []
+    },
+    "observation & data": {
+      "description": "Record qualitative observations and quantitative data (tables, measurements, timestamps).",
+      "value": {
+        "notes": "",
+        "tables": []
+      }
+    },
+    "results": {
+      "description": "Summarize analyzed data (averages, graphs, trends). No interpretations yet.",
+      "value": ""
+    },
+    "conclusion": {
+      "description": "State whether the hypothesis was supported or not, explain why, mention errors and improvements.",
+      "value": ""
+    },
+    "questions & research": {
+      "description": "Background research, related questions, and references to sources consulted.",
+      "value": {
+        "questions": [],
+        "references": []
+      }
+    },
+    "video": {
+      "description": "Link to demonstration or presentation video (URL).",
+      "value": ""
+    },
+    "headshots": {
+      "description": "Image URLs or file references for team member headshots.",
+      "value": []
+    }
+  }
+}

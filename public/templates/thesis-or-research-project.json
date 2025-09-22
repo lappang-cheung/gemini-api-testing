@@ -1,0 +1,48 @@
+{
+  "title": "Thesis or Research Project",
+  "description": "A master template for undergraduate, graduate, or independent research projects, suitable for proposals, research logs, and final reports.",
+  "categories": {
+    "hypotheses": {
+      "description": "Clearly state the research hypothesis or guiding research question.",
+      "value": ""
+    },
+    "materials": {
+      "description": "Datasets, instruments, software, libraries, participants, and other resources.",
+      "value": []
+    },
+    "experiment": {
+      "description": "Methodology: design, sampling, procedures, protocols, or experimental setup.",
+      "value": []
+    },
+    "observation & data": {
+      "description": "Field notes, observations, raw data summaries, and data management notes.",
+      "value": {
+        "notes": "",
+        "datasets": []
+      }
+    },
+    "results": {
+      "description": "Key findings after analysis (statistics, figures, tables).",
+      "value": ""
+    },
+    "conclusion": {
+      "description": "Interpretation, implications, limitations, and future work.",
+      "value": ""
+    },
+    "questions & research": {
+      "description": "Literature review notes, citations, and open research questions.",
+      "value": {
+        "questions": [],
+        "references": []
+      }
+    },
+    "video": {
+      "description": "Presentation or defense recording link (URL).",
+      "value": ""
+    },
+    "headshots": {
+      "description": "Researcher headshot image URLs or file references.",
+      "value": []
+    }
+  }
+}
