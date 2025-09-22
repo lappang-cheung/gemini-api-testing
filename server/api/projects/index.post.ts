@@ -1,4 +1,4 @@
-// server/api/projects.post.ts
+// server/api/projects/index.post.ts
 import { readBody } from 'h3'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'

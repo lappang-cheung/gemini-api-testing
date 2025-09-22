@@ -1,0 +1,57 @@
+{
+  "id": "d3be7cf1-c0ab-4a1b-9380-39b7658e4a5b",
+  "template": {
+    "slug": "thesis-or-research-project",
+    "title": "Thesis or Research Project"
+  },
+  "title": "How Cancer Works",
+  "description": "Hello some text",
+  "submitted": true,
+  "published": false,
+  "createdAt": "2025-09-22T04:34:35.749Z",
+  "updatedAt": "2025-09-22T04:34:35.749Z",
+  "categories": {
+    "hypotheses": {
+      "description": "Clearly state the research hypothesis or guiding research question.",
+      "value": ""
+    },
+    "materials": {
+      "description": "Datasets, instruments, software, libraries, participants, and other resources.",
+      "value": []
+    },
+    "experiment": {
+      "description": "Methodology: design, sampling, procedures, protocols, or experimental setup.",
+      "value": []
+    },
+    "observation & data": {
+      "description": "Field notes, observations, raw data summaries, and data management notes.",
+      "value": {
+        "notes": "",
+        "datasets": []
+      }
+    },
+    "results": {
+      "description": "Key findings after analysis (statistics, figures, tables).",
+      "value": ""
+    },
+    "conclusion": {
+      "description": "Interpretation, implications, limitations, and future work.",
+      "value": ""
+    },
+    "questions & research": {
+      "description": "Literature review notes, citations, and open research questions.",
+      "value": {
+        "questions": [],
+        "references": []
+      }
+    },
+    "video": {
+      "description": "Presentation or defense recording link (URL).",
+      "value": ""
+    },
+    "headshots": {
+      "description": "Researcher headshot image URLs or file references.",
+      "value": []
+    }
+  }
+}
