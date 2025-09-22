@@ -1,0 +1,59 @@
+{
+  "id": "1581b89f-102c-4fa1-9b49-8465ceb31057",
+  "template": {
+    "slug": "thesis-or-research-project",
+    "title": "Thesis or Research Project"
+  },
+  "title": "Types and Cures for Cancer",
+  "description": "This project investigates the different types of cancer and the various medical procedures and treatments used to cure or manage them.",
+  "submitted": false,
+  "published": false,
+  "priority": "medium",
+  "prompt": "I want to start another new project about cancer, this talks about the different types and how procedures to cure it",
+  "createdAt": "2025-09-22T16:03:23.282Z",
+  "updatedAt": "2025-09-22T16:03:23.282Z",
+  "categories": {
+    "hypotheses": {
+      "description": "Clearly state the research hypothesis or guiding research question.",
+      "value": ""
+    },
+    "materials": {
+      "description": "Datasets, instruments, software, libraries, participants, and other resources.",
+      "value": []
+    },
+    "experiment": {
+      "description": "Methodology: design, sampling, procedures, protocols, or experimental setup.",
+      "value": []
+    },
+    "observation & data": {
+      "description": "Field notes, observations, raw data summaries, and data management notes.",
+      "value": {
+        "notes": "",
+        "datasets": []
+      }
+    },
+    "results": {
+      "description": "Key findings after analysis (statistics, figures, tables).",
+      "value": ""
+    },
+    "conclusion": {
+      "description": "Interpretation, implications, limitations, and future work.",
+      "value": ""
+    },
+    "questions & research": {
+      "description": "Literature review notes, citations, and open research questions.",
+      "value": {
+        "questions": [],
+        "references": []
+      }
+    },
+    "video": {
+      "description": "Presentation or defense recording link (URL).",
+      "value": ""
+    },
+    "headshots": {
+      "description": "Researcher headshot image URLs or file references.",
+      "value": []
+    }
+  }
+}

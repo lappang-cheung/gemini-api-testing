@@ -41,7 +41,7 @@
 
     <section class="actions">
       <NuxtLink to="/projects" class="btn">Back to list</NuxtLink>
-      <NuxtLink :to="`/projects/${route.params.id}/edit`" class="btn secondary" disabled>Edit (future)</NuxtLink>
+      <NuxtLink :to="`/projects/${route.params.id}/edit`" class="btn secondary">Edit</NuxtLink>
     </section>
   </div>
   <div v-else class="container">
